@@ -13,12 +13,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mojara 2.03">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-			<attribute name="owner.project.facets" value="jst.jsf"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/hibernate-release-4.3.11.Final/hibernate-release-4.3.11.Final/lib/required/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/hibernate-release-4.3.11.Final/hibernate-release-4.3.11.Final/lib/required/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/hibernate-release-4.3.11.Final/hibernate-release-4.3.11.Final/lib/required/hibernate-commons-annotations-4.0.5.Final.jar"/>
@@ -31,5 +25,11 @@
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/hibernate-release-4.3.11.Final/hibernate-release-4.3.11.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Erick/Documents/Conectores Eclipse mysql/primefaces-6.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mojara 2.03">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.jsf"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

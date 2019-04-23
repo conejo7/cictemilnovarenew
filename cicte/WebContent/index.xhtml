@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />    
+    <title>JSF Hibernatee</title>
+    <style type="text/css">
+    	.btnPos {
+    		margin: 12px;
+    	}
+    	.marginLeft12 {
+    		margin-left: 12px;
+    	}
+    	.successText {
+    		padding-left: 22px;
+    		font-weight: bold;
+    		color: green;
+    	}
+    	.stud-table {
+			border-collapse: collapse;
+		}
+		.stud-table-header {
+			text-align: center;
+			background: none repeat scroll 0 0 #E5E5E5;
+			border-bottom: 1px solid #BBBBBB;
+			padding: 2px;
+		}
+		.stud-table-row {
+			padding: 12px;
+    		text-align: center;
+		}
+    </style>
+</h:head>
+<h:body>
+    <center><h2>JSF Hibernate Crud Example</h2></center>
+    <!-- New Student Form -->
+    <h3 class="marginLeft12">1. New Student Form</h3>
+    <h:form id="studentSaveForm" styleClass="form-horizontal">    	
+        <h:panelGrid columns="2">        	
+        	<div class="form-group">
+            	<h:outputLabel value="Id:" styleClass="control-label" />
+            	<div class="col-xs-10">	
+            		<h:inputText value="#{student.id}" styleClass="form-control" />
+            	</div> 
+            </div>
+            <div class="form-group">
+            	<h:outputLabel value="Name:" styleClass="control-label" />
+            	<div class="col-xs-10">
+            		<h:inputText value="#{student.name}" styleClass="form-control" /> 
+            	</div> 
+            </div>
+            <div class="form-group">
+            	<h:outputLabel value="Department:" styleClass="control-label" />
+            	<div class="col-xs-10">	
+            		<h:inputText value="#{student.department}" styleClass="form-control" />
+            	</div> 
+            </div>
+            <div class="form-group">
+        		<div class="col-xs-offset-2 col-xs-10">
+            		<h:commandButton value="Save Record" action="#{student.nuevoModelo()}" styleClass="btn btn-primary btn-sm btnPos" />
+            	</div>
+            </div>
+        </h:panelGrid>
+        
+    </h:form>
+    <br /><br />
+    
+   
+</h:body>
+</html>
